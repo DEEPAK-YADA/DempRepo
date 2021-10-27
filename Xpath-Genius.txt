@@ -1,0 +1,20 @@
+xpath   ==   
+
+1.           =====>  following-sibling  with descendant
+
+            //div[text()='Date of birth']/following-sibling::div/descendant::select[1]
+
+
+2.          ========>    following-sibling  with ancestor
+
+//div[text()='Date of birth']/following-sibling::div/descendant::select[1]/ancestor::span
+
+
+3.        ===========>>>  preceding-sibling  with 
+
+//div[@id='birthday_wrapper']/preceding-sibling::div/descendant::div[contains(text(),'New')]
+
+//td[contains(text(),'Antonio Moreno Taquería')]/preceding-sibling::td
+
+
+4.
